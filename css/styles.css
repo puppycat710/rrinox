@@ -48,14 +48,14 @@ button {
 
 .gradient-border {
 	position: relative;
-	border-radius: 10px; /* arredondamento */
+	border-radius: 25px; /* arredondamento */
 }
 
 .gradient-border::before {
   content: "";
   position: absolute;
   inset: 0;
-  padding: 4px; /* espessura da borda */
+  padding: 8px; /* espessura da borda */
   border-radius: inherit;
   background: linear-gradient(90deg, rgba(77, 84, 85, 1), rgba(215, 215, 216, 1));
   /* versão padrão */
